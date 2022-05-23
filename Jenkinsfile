@@ -25,4 +25,4 @@ node('built-in')
             {
               deploy adapters: [tomcat9(credentialsId: 'b4498005-6926-4360-ace6-184bc14a3622', path: '', url: 'http://172.31.27.117:8080')], contextPath: 'prodapp', war: '**/*.war'
             }    
-    
+    }
